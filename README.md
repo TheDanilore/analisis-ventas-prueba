@@ -38,6 +38,9 @@ python analisis_ventas.py
 
 Esto imprimirá los resultados del análisis en la terminal y generará los archivos `ventas.db` y `grafico.png`.
 
+<img width="1000" height="600" alt="grafico" src="https://github.com/user-attachments/assets/4d45046f-d609-4ce9-89e6-3ccb5e9f3e1f" />
+
+
 ## 3. Ejecutar las Pruebas
 
 Para validar que la función de cálculo de totales funciona correctamente, corre `pytest` desde tu terminal en la carpeta del proyecto:
@@ -47,6 +50,9 @@ pytest
 ```
 
 Verás una salida que indica si las pruebas pasaron (`PASSED`).
+
+<img width="1460" height="253" alt="Captura de pantalla 2025-10-20 151935" src="https://github.com/user-attachments/assets/7cb51aa4-f927-4f00-abd0-f578ae3a2b54" />
+
 
 ## 4. Consultar la Base de Datos
 
@@ -66,3 +72,5 @@ ORDER BY
     cantidad_total DESC
 LIMIT 3;
 ```
+
+<img width="863" height="432" alt="Captura de pantalla 2025-10-20 152242" src="https://github.com/user-attachments/assets/84e31b1c-7334-4e61-b6fc-7fe70cbd7684" />
